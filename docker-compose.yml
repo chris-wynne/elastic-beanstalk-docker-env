@@ -1,0 +1,11 @@
+services:
+  eb-cli:
+    build: .
+    container_name: eb-cli-container
+    stdin_open: true
+    tty: true
+    volumes:
+      - ~/.aws:/root/.aws  # Mount AWS credentials
+      - .:/app  # Mount current directory
+    working_dir: /app
+    entrypoint: ["/bin/bash"]

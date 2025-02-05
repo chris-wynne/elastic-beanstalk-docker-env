@@ -20,7 +20,7 @@ Shell into container
 docker exec -it eb-cli-container bash
 ```
 
-Check eb instillation
+## Check eb instillation
 ```bash
 eb --version
 ```

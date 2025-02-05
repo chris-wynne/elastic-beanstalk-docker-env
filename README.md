@@ -7,6 +7,8 @@ Check the mount for aws credntials is correct.
 
 ```bash
 docker compose build
+```
+
 ```bash
 docker compose up -d
 ```
